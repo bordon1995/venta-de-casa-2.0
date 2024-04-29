@@ -10,7 +10,6 @@ class Router
 
     public function get($url, $fn)
     {
-        debuguear('3');
         $this->rutasGET[$url] = $fn;
     }
 

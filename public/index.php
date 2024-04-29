@@ -6,7 +6,7 @@ use MVC\Router;
 use Controllers\PropiedadController;
 
 $router = new Router();
-debuguear('1');
+
 $router->get('/', [PropiedadController::class, 'login']);
 $router->post('/', [PropiedadController::class, 'login']);
 
