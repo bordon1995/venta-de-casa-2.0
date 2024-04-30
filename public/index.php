@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../funciones/app.php';
+require_once '../funciones/app.php';
 
 use MVC\Router;
 use Controllers\PropiedadController;
